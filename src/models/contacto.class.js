@@ -3,13 +3,13 @@ export class Contacto {
     name = '';
     lastName = '';
     email = '';
-    conect = true;
+    connect = true;
 
-    constructor(name, lastName, email, conect){
+    constructor(name, lastName, email, connect){
         this.name = name;
         this.lastName = lastName;
         this.email = email;
-        this.conect = conect
+        this.connect = connect
     }
 
 }

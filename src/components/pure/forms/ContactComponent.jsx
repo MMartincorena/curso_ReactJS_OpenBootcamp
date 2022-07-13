@@ -2,13 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Contacto } from "../../../models/contacto.class";
 
-const ContactComponent = ({ contacto }) => {
+const ContactComponent = ({name, lastName, email, isConnected}) => {
   return (
     <div>
-      <h2>Nombre: {contacto.name}</h2>
-      <h2>Apellido: {contacto.lastName}</h2>
-      <h2>Email: {contacto.email}</h2>
-      <h2>Contacto: {contacto.conect ? "Conectado" : "Desconectado"}</h2>
+      <h2>Nombre: {name}</h2>
+      <h2>Apellido: {lastName}</h2>
+      <h2>Email: {email}</h2>
+      <h2>Conectado: {isConnected ? "Conectado" : "Desconectado"}</h2>
     </div>
   );
 };
