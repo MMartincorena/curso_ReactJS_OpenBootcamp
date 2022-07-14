@@ -10,7 +10,7 @@ import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3'
 import Ejemplo4 from './hooks/Ejemplo4';
 import Clock from './components/pure/clock'; */
-import CrudForm from "./components/pure/CrudForm";
+import CrudForm from "./components/pure/CRUD/CrudForm";
 
 function App() {
   return (
